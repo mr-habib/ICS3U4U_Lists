@@ -34,7 +34,7 @@ Given any of these commands, the program should output the appropriate data.
 Note that if the user types "range" you will need another set of inputs to get the start and end of the range.
 
 Note on sorting: 
-1. You need to use the sorted function so as to not ruin the first and last calls.
+1. You need to use the ```sorted()``` function so as to not ruin the first and last calls.
 2. Call sorted like this: ```sorted(list_of_items, key=str)```. Trust me. Otherwise you'll get an error saying it does'nt know how to use '<' on ints and strs.
 
 ## Interactivity
@@ -59,6 +59,11 @@ Enter a command: length
 Enter a command: sort
 [2, 'Bread', 'Milk', 'Pineapple Pizza']
 
+Enter a command: range
+Sart: 1
+End: 3
+['Bread', 2]
+
 Enter a command: done
 ```
 
@@ -74,6 +79,11 @@ Enter a command: length
 
 Enter a command: sort
 [2, 'Bread', 'Milk', 'Pineapple Pizza']
+
+Enter a command: range
+Sart: 1
+End: 3
+['Bread', 2]
 
 Enter a command: done
 ```
